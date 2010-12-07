@@ -1,0 +1,5 @@
+<h2><%= link_to post.title, post %></h2>
+
+<p><%= post.content %></p>
+
+<p><%= link_to "edit", edit_post_url(post) %></p><p><%= link_to 'delete', post_url(post), :method => :delete %>
